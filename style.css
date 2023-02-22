@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	 background-image: url("images/bg-desktop.svg");
+	 background-color: hsl(257, 40%, 49%);
+}
+.logo {
+	margin-top: 30px;
+	margin-left: 50px;
+}
+main {
+	margin-top: 70px;
+	margin-left: 50px;
+	height: 70%;
+}
+.mockup {
+	float: left;
+	margin-right: 80px;
+}
+main, .right-text {
+}
+html, body {
+	height: 100%;
+}
+.right-main-text {
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	padding-top: 3.5%;
+	display: flex;
+	justify-content: flex-start;
+	font-weight: 600;
+	font-size: 30px;
+	word-spacing: 5px;
+}
+.right-second-text {
+	color: whitesmoke;
+	margin-top: 30px;
+	font-size: 16px;
+	line-height: 1.4;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+button {
+	margin-top: 20px;
+	padding-left: 55px;
+	padding-right: 55px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-radius: 20px;
+	border: none;
+	background-color: hsl(300, 69%, 71%);
+	color: white;
+}
+button:hover {
+	box-shadow: 5px 2px 2px black;
+	cursor: pointer;
+}
+.logo-right {
+	width: 3%;
+	display: flex;
+	padding-left: 30rem;
+	margin-bottom: 10px;
+}
+.facebook {
+	padding-right: 10px;
+}
+.twitter {
+	padding-right: 10px;
+}
+.instagram {
+	padding-right: 10px;
+}
+.logo-right:hover {
+	cursor: pointer;
+}
